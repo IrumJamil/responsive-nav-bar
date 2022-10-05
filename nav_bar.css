@@ -1,0 +1,89 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: monospace;
+}
+#navbarSupportedContent{
+    font-size: 23px;
+    padding-left: 30px;
+    margin-left: 100px;
+}
+
+nav ul li a{
+    color: white;
+    text-transform: uppercase;
+}
+a:hover{
+    background-color: rgba(33, 83, 83, 0.788);
+    color: white;
+    transition: .5s;
+}  
+#top{
+    padding: 0% 9%;
+}
+.navbar-dark .nav-link {
+color: rgb(255, 255, 255);
+font-weight: 50;
+width: 100%;
+position: sticky;
+}
+#logo{
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+    float: left;
+
+}
+#banner{
+    background-image: url('ban.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+
+#searchbox{
+    background-color: rgba(57, 116, 116, 0.788);
+    border: 0px;
+    color: white;
+    position: relative;
+    left: 47px;
+    box-shadow: 5px 10px 11px 0px #157bd58f;;
+}
+#searchbox::placeholder{
+    color: azure;
+    font-size: 14px;
+}
+#searchbtn{
+    background-color: rgba(33, 83, 83, 0.788);
+    position: relative;
+    z-index: 99;
+    color: whitesmoke;
+    border: 0px;
+    border-radius: 0px;
+}
+@media only screen and (max-width:992px){
+
+    #top_s{
+      margin-top: 20px;
+      margin-bottom: 30px;
+      position: relative;
+      left: -30px;
+    }
+}
+@media only screen and (max-width:500px){
+
+    #top{
+      padding: 0px;
+    }
+}
+@media only screen and (max-width:1250px){
+
+    #top_s{
+     display: none;
+    }
+}
